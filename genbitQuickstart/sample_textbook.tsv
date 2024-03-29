@@ -1,0 +1,23 @@
+ In a class, 40 students visited Nebraska, 30 students visited Ohio, one
+student visited both Nebraska and Ohio. How many students visited Nebraska or Ohio
+(at least one of these states)?
+Solution In problems like this one, we want to avoid counting the same elements twice.
+We can write the problem in the language of sets. Let N be the set of students who visited
+Nebraska, and let H be the set of students who visited Ohio:
+|N| = 40, |H| = 30, |N ∩ H| = 1, |N ∪ H| =?
+In each part of the diagram, we write the number of elements, starting with |N ∩ H| = 1. We
+write the number that corresponds to the bounded part. The whole oval N has 40 elements.
+Thus, the remaining part without the intersection has 40 − 1 = 39 elements. Similarly, the
+remaining part of H has 30 − 1 = 29 elements.
+Thus, the number of elements of the union N ∪ H is just the sum of numbers in the parts:
+|N ∪ H| = 39 + 1 + 29 = 69
+Answer: 69 students.
+Example 1.24 In a science classroom, 19 students have at least one brother, 15 students have at least one sister, 7 students have at least one brother and at least one
+sister, and 6 students do not have any siblings at all. How many students are in the
+classroom?
+Solution We formulate the problem in the language of sets. Let U be the set of all
+students in the class. It is the universal set. Let B be the set of students with at least one
+brother, and let S be the set of students with at least one sister. Then, in terms of sets, we
+have
+|B| = 19, |S| = 15, |B∩S| = 7, |B∪S| = 6 (outside B and S), |U| =?
+In each part of the diagram, we write the number of elements, starting from |B∩S| = 7.
